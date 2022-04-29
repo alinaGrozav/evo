@@ -5,15 +5,15 @@ module.exports = {
         passwordLogin: 'input[placeholder="Kennwort"]',
         buttonLogin: '[tabindex="3"]',
     },
-    // commmands: [{
-    //     loginCustom() {
-    //         return this
-    //             .waitForElementVisible('@usernameLogin')
-    //             .click('@usernameLogin')
-    //             .setValue('@usernameLogin', 'asklepiosevo.abenea')
-    //             .click('@passwordLogin')
-    //             .setValue('@passwordLogin', 'Ungam+20')
-    //             .click('@buttonLogin')
-    //     }
-    // }]
+    commmands: [{
+        loginCustom() {
+            return this
+                .waitForElementVisible('@usernameLogin')
+                .click('@usernameLogin')
+                .setValue('@usernameLogin', 'asklepiosevo.abenea')
+                .click('@passwordLogin')
+                .setValue('@passwordLogin', 'Ungam+20')
+                .click('@buttonLogin')
+        }
+    }]
 }

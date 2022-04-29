@@ -1,29 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="1">
 
   <testsuite name="evoTest"
-    errors="0" failures="0" hostname="" id="" package="evoTest" skipped="0"
-    tests="1" time="27.80" timestamp="">
+    errors="0" failures="1" hostname="" id="" package="evoTest" skipped="0"
+    tests="1" time="0.2520" timestamp="">
   
-    <testcase name="Evo test case" classname="evoTest" time="27.80" assertions="9">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase name="Evo test case" classname="evoTest" time="0.2520" assertions="1">  <failure message="login.loginCustom is not a function">TypeError: login.loginCustom is not a function
+    at Object.Evo test case (C:\Users\alina.grozav\Documents\projects\automation\tests\evoTest.js:16:14)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)</failure>
 
     
     </testcase>

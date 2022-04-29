@@ -8,18 +8,19 @@ module.exports = {
         const m16 = browser.page.m16();
 
         login
-            .navigate()
             .maximizeWindow()
+            .navigate()
+            
 
-        // login
-        //     .loginCustom()
+        login
+            .loginCustom()
 
-            .waitForElementVisible('@usernameLogin')
-            .click('@usernameLogin')
-            .setValue('@usernameLogin', 'asklepiosevo.abenea')
-            .click('@passwordLogin')
-            .setValue('@passwordLogin', 'Ungam+20')
-            .click('@buttonLogin')
+            // .waitForElementVisible('@usernameLogin')
+            // .click('@usernameLogin')
+            // .setValue('@usernameLogin', 'asklepiosevo.abenea')
+            // .click('@passwordLogin')
+            // .setValue('@passwordLogin', 'Ungam+20')
+            // .click('@buttonLogin')
             .assert.urlContains('regulation')
 
 
