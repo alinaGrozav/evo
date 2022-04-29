@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="firstTest"
+    errors="1" failures="0" hostname="" id="" package="firstTest" skipped="0"
+    tests="1" time="10.66" timestamp="">
+  
+    <testcase name="My first test case" classname="firstTest" time="10.66" assertions="2">
+
+    
+
+    
+    <error message="An error occurred while running .setValue() command on &lt;#password&gt;: Timed out while waiting for element &#34;#password&#34; with &#34;css selector&#34; to be present for 5000 milliseconds." type="error"><![CDATA[
+    Error
+    at Object.My first test case (C:\Users\alina.grozav\Documents\projects\automation\tests\firstTest.js:13:18)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       NoSuchElementError: An error occurred while running .setValue() command on &lt;#password&gt;: Timed out while waiting for element &#34;#password&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+       at Object.My first test case (C:\Users\alina.grozav\Documents\projects\automation\tests\firstTest.js:13:18)
+       at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
